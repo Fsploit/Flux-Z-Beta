@@ -56,7 +56,7 @@ local function createLoadingScreen(titleText, contentText)
     Button.Size = UDim2.new(0, 150, 0, 50)
     Button.Position = UDim2.new(0.5, 0, 0, 270) -- Centered horizontally and slightly above the bottom
     Button.BackgroundColor3 = Color3.fromRGB(50, 150, 255)
-    Button.Text = "Continue (PREES ME TWICE)"
+    Button.Text = "Ok"
     Button.Font = Enum.Font.SourceSansBold
     Button.TextSize = 20
     Button.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -72,8 +72,7 @@ local function createLoadingScreen(titleText, contentText)
     Button.MouseButton1Click:Connect(function()
         -- Print message
 print("hi")
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua"))()
-        -- Outro Animation
+                -- Outro Animation
         MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quint, 1, true, function()
             -- Remove UI and Blur
             ScreenGui:Destroy()
@@ -83,4 +82,4 @@ print("hi")
 end
 
 -- Example Usage
-createLoadingScreen("Fluxus Z Team", "This script is now rebranded to Frostware Blade Ball, yes, the script was rebranded due to the original fluxus coming back, but hey! that doesnt stop us from updating our blade ball! (PRESS THE BUTTON TWICE TOGGLE THE UI)")
+createLoadingScreen("Fluxusware Team", "Blade ball added a new anti cheat, please wait while we update it today, our devs are working hard!")

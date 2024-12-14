@@ -72,6 +72,7 @@ local function createLoadingScreen(titleText, contentText)
     Button.MouseButton1Click:Connect(function()
         -- Print message
 print("hi")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua"))()            
                 -- Outro Animation
         MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quint, 1, true, function()
             -- Remove UI and Blur
@@ -82,4 +83,4 @@ print("hi")
 end
 
 -- Example Usage
-createLoadingScreen("Fluxusware Team", "Blade ball added a new anti cheat, please wait while we update it today, our devs are working hard!")
+createLoadingScreen("Fluxusware Team", "we finally bypassed it, please click the continue button twice to activate the script ")

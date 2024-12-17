@@ -71,10 +71,9 @@ local function createLoadingScreen(titleText, contentText)
     -- Button Functionality
     Button.MouseButton1Click:Connect(function()
         -- Print message
-print("hi")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware/refs/heads/main/F-R-O-S-T-W-A-R-E%20BY%20FSPLOIT-BLADE%20BALL.lua"))()            
-                -- Outro Animation
-        MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quint, 1, true, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Fsploit/Frostware-/refs/heads/main/Bypass.lua"))() 
+            -- Outro Animation
+    MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.In, Enum.EasingStyle.Quint, 1, true, function()
             -- Remove UI and Blur
             ScreenGui:Destroy()
             BlurEffect:Destroy()
